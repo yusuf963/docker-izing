@@ -1,0 +1,23 @@
+{
+  "name": "docker-izing",
+  "version": "1.0.0",
+  "description": "this basic node server meant to be deyloped on Azure VM using docker container",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusuf963/docker-izing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusuf963/docker-izing/issues"
+  },
+  "homepage": "https://github.com/yusuf963/docker-izing#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
