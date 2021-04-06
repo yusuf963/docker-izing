@@ -11,6 +11,8 @@ docker build -t node-docker .
 docker run -it -p 9000:3000 node-docker
 ## to run docker on the background(detach)
 docker run -d -p 9000:3000 node-docker
+## to run docker in interactive mode(to see change)
+docker run -it -p 9001:3000 -v $(pwd):/app node-docker
 ## to see the list of running container
 docker ps
 

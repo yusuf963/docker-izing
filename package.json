@@ -4,7 +4,7 @@
   "description": "this basic node server meant to be deyloped on Azure VM using docker container",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
